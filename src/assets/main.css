@@ -1,0 +1,5 @@
+@import './base.css';
+
+.layout-spacing {
+  padding: 0 50px;
+}
