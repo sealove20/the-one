@@ -17,6 +17,7 @@ header {
   align-items: center;
   width: 100%;
   height: 2rem;
+  margin-top: 10px;
 }
 
 i {
@@ -25,5 +26,11 @@ i {
   place-content: center;
   width: 128px;
   height: 25px;
+}
+
+@media (max-width: 640px) {
+  header {
+    justify-content: center;
+  }
 }
 </style>
