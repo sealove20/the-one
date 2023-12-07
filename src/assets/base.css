@@ -42,6 +42,14 @@
 
   --white: #ffffff;
   --black: #000000;
+
+  --28px: 1.75rem;
+  --24px: 1.5rem;
+  --22px: 1.375rem;
+  --18px: 1.125rem;
+  --16px: 1rem;
+  --14px: 0.875rem;
+  --12px: 0.75rem;
 }
 
 *,
@@ -107,6 +115,31 @@ textarea,
 select {
   font: inherit;
 }
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+}
+
 /*
   7. Avoid text overflows
 */
